@@ -1,0 +1,15 @@
+<h2>Creado Prospecto</h2>
+<h3><%= @prospect.email %></h2>
+<p><%= @prospect.name %></p>
+<p><%= @prospect.last_name %></p>
+<p><%= @prospect.phone %></p>
+<p><%= @prospect.status %></p>
+<p><%= @prospect.date %></p>
+<p><%= @prospect.created_at.strftime("%d / %m / %y") %></p>
+<p><%= @prospect.user_id %></p>
+
+<%= link_to 'Editar', edit_prospect_path(@prospect) %> |
+<%= link_to 'Index', prospects_path %> |
+<%= link_to 'Crear contacto', new_prospect_contact_path(@prospect) %>
+
+<p>contactos = </p>

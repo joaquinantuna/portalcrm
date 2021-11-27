@@ -1,0 +1,18 @@
+<div class="container">
+
+    <%= simple_form_for(prospect) do |f| %>
+    <%= f.input :email, label: "Email" %>
+    <%= f.input :name, label: "Nombres"  %>
+    <%= f.input :last_name, label: "Apellidos"  %>
+    <%= f.input :phone, label: "Teléfono"  %>
+    <%= f.input :status,
+              label: "Estatus",
+              collection: ["Prospecto", "Interesado", "Cliente"], prompt: "Prospecto",
+              required: true,
+              size: 10,
+              autofocus: true %>
+
+    <%= f.submit "Guardar prospecto", class: "btn btn-primary"  %>
+  <% end %>
+
+</div>
