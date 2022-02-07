@@ -5,5 +5,3 @@ Los correos y contraseñas son los de la guia:
  user: admin@gmail.com, pass: 291ABASD932 
 - user: usuario1@gmail.com, pass: 291ABASD934
 - user: usuario2@gmail.com, pass: 281ABASD932
-
-Me faltaron partes, saludos
